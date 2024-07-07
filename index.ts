@@ -78,7 +78,7 @@ async function initMap(): Promise<void> {
 
     return `
     <div>
-    <a href="http://insideschools.org/school/${school.dbn}">Inside Schools</a>
+    <a href="http://insideschools.org/school/${school.dbn}">${school.dbn}</a>
     </div>
     <div>
     ${properties.join(", ")}
