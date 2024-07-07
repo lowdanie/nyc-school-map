@@ -15,6 +15,8 @@ interface School {
 // Initialize and add the map
 let map;
 async function initMap(): Promise<void> {
+  console.log(zoneData);
+  console.log(schoolData);
   // Request needed libraries.
   //@ts-ignore
   const { Map, InfoWindow } = (await google.maps.importLibrary(
@@ -114,7 +116,7 @@ async function initMap(): Promise<void> {
     if (zoom) {
       // Only show each marker above a certain zoom level.
       for (const marker of schoolMarkers) {
-        marker.map = zoom > 12 ? map : null;
+        marker.map = zoom > 13 ? map : null;
       }
     }
   });
