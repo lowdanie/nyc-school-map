@@ -1,8 +1,9 @@
 # NYC School Map
 
-This is a map of NYC school zones. You can view the map here: [https://www.daniellowengrub.com/nyc-school-map/](https://www.daniellowengrub.com/nyc-school-map/)
+This is a map of NYC school zones. You can view the map here: https://www.daniellowengrub.com/nyc-school-map/
 
-Zones whose school is labelled as a staff pick on [https://insideschools.org/](Inside Schools) are colored in blue. If you zoom in you can see the individual schools.
+Zones whose school is labelled as a staff pick on 
+[Inside Schools](https://insideschools.org/) are colored in blue. If you zoom in you can see the individual schools.
 
 ## Data
 
